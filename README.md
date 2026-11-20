@@ -17,7 +17,7 @@ Huge appreciation for having clear instructions on how to set up SSH and Git tog
 ---
 
 ## Basic Commands
-* git clone <linkfromgitssh>
+* `git clone <linkfromgitssh>` - clones the repo from github
 * `git status` — Shows modified files, staged changes, and the current branch.
 * `git add <file>` (or `git add .`) — Puts changes in a box so they are ready for the next commit.
 * `git commit -m "message"` — Saves staged changes to the local repository history with a descriptive note.
