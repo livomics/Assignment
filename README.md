@@ -8,7 +8,7 @@ Student of Bioinformatics 3rd year testing git out:p
 Huge appreciation for having clear instructions on how to set up SSH and Git together—managed to get it working on the very first try.
 
 - ls -al ~/.ssh - lists your ssh keys
-- ssh-keygen -t ed25519 -C "your-email@example.com - to create a new key 
+- ssh-keygen -t ed25519 -C "your-email@example.com" - to create a new key 
 - cat ~/.ssh/id_ed25519.pub - to show your new made key 
 - `git config --global user.name "Your Name"` — Sets the author name attached to your commits.
 - `git config --global user.email "you@example.com"` — Sets the email address attached to your commits.
@@ -47,4 +47,5 @@ Huge appreciation for having clear instructions on how to set up SSH and Git tog
 * `git restore <file>` — Discards unstaged changes in your working directory, reverting the file back to the last commit.
 
 When you go back to see how your worked looked like, you cannot modify it. You have to branch it first and then you can work on it.
-
+When you change your files first you do git add then commit then push. 
+When pushing branches you have to write git push origin `branch` you can't just write git push.
