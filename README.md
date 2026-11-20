@@ -19,7 +19,7 @@ Huge appreciation for having clear instructions on how to set up SSH and Git tog
 ## Basic Commands
 * git clone <linkfromgitssh>
 * `git status` — Shows modified files, staged changes, and the current branch.
-* `git add <file>` (or `git add .`) — Stages changes so they are ready for the next commit.
+* `git add <file>` (or `git add .`) — Puts changes in a box so they are ready for the next commit.
 * `git commit -m "message"` — Saves staged changes to the local repository history with a descriptive note.
 * `git push` — Uploads local commits to the remote repository (e.g., GitHub).
 * `git pull` — Downloads changes from the remote repository and merges them into your current branch.
@@ -39,7 +39,7 @@ Huge appreciation for having clear instructions on how to set up SSH and Git tog
 
 ### Getting Remote Updates
 * `git fetch` — Downloads new data from the remote repository so you can inspect it, without altering your local working files.
-* `git pull` — Runs `git fetch` followed immediately by `git merge` to update your local branch right away.
+* `git pull` — Runs `git fetch` followed immediately by `git merge` to update your local branch right away (this is what AI said). I would say that git pull is like git fetch but changes what you have localy.
     
 
 ## Restoring Changes
