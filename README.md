@@ -5,7 +5,7 @@ Student of Bioinformatics 3rd year testing git out:p
 ---
 
 ## Setup & SSH
-*Huge appreciation for having clear instructions on how to set up SSH and Git together—managed to get it working on the very first try.*
+Huge appreciation for having clear instructions on how to set up SSH and Git together—managed to get it working on the very first try.
 
 - ls -al ~/.ssh - lists your ssh keys
 - ssh-keygen -t ed25519 -C "your-email@example.com - to create a new key 
@@ -17,7 +17,7 @@ Student of Bioinformatics 3rd year testing git out:p
 ---
 
 ## Basic Commands
-* git clone (ssh)
+* git clone <linkfromgitssh>
 * `git status` — Shows modified files, staged changes, and the current branch.
 * `git add <file>` (or `git add .`) — Stages changes so they are ready for the next commit.
 * `git commit -m "message"` — Saves staged changes to the local repository history with a descriptive note.
@@ -45,4 +45,6 @@ Student of Bioinformatics 3rd year testing git out:p
 ## Restoring Changes
 
 * `git restore <file>` — Discards unstaged changes in your working directory, reverting the file back to the last commit.
+
+When you go back to see how your worked looked like, you cannot modify it. You have to branch it first and then you can work on it.
 
